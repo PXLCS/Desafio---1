@@ -40,6 +40,20 @@
     footer { text-align: center; margin-top: 20px; padding-top: 20px; border-top: 1px solid #323238; }
     footer h3 { color: #9871f5; font-size: 1.1rem; margin-bottom: 8px; }
     footer p { color: #7c7c8a; font-size: 0.9rem; }
+
+    /* Configuração para telas de celular (telas menores que 600px) */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column; /* Faz os botões ficarem um embaixo do outro */
+    align-items: stretch;   /* Faz todos os botões ficarem do mesmo tamanho */
+    gap: 10px;              /* Espaçamento entre um botão e outro */
+  }
+
+  nav a {
+    display: block;
+    text-align: center;    /* Centraliza o texto dentro do botão */
+  }
+}
   </style>
 </head>
 <body>

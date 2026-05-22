@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre o Linux - História e Filosofia</title>
+  <style>
+    /* Estilos para manter o padrão Dark Mode do site */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #121214;
+      color: #e1e1e6;
+      line-height: 1.6;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container { max-width: 750px; width: 100%; background-color: #202024; padding: 40px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3); }
+    header { text-align: center; margin-bottom: 30px; }
+    header h1 { color: #9871f5; font-size: 2.2rem; }
+    
+    /* Menu */
+    nav ul { list-style: none; display: flex; gap: 15px; justify-content: center; margin-top: 20px; }
+    nav a { text-decoration: none; color: #e1e1e6; background-color: #29292e; padding: 10px 20px; border-radius: 6px; font-size: 0.95rem; font-weight: 600; transition: all 0.2s; border: 1px solid #323238; }
+    nav a:hover { background-color: #9871f5; transform: translateY(-2px); }
+    
+    .divisor { height: 1px; background: linear-gradient(to right, transparent, #323238, transparent); margin: 30px 0; }
+    
+    /* Conteúdo Principal */
+    main h2 { color: #9871f5; font-size: 1.4rem; margin: 20px 0 10px 0; }
+    main p { color: #c4c4cc; text-align: justify; margin-bottom: 15px; }
+    
+    /* Rodapé */
+    footer { text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #323238; color: #7c7c8a; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Sobre o Linux</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">← Voltar para o Início</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="divisor"></div>
+
+    <main>
+      <h2>A História do Kernel</h2>
+      <p>O Linux não é um sistema operacional completo por si só, mas sim um <strong>kernel</strong> (o núcleo do sistema). Ele foi criado originalmente por <em>Linus Torvalds</em> em 1991 como um projeto pessoal. Linus queria desenvolver um sistema baseado no Unix que pudesse rodar em computadores comuns da época. Com o passar do tempo foram criadas novas distros que passaram a ter diferentes tipos de objetivo, por exemplo: Debian, Ubuntu, Arch entre diversas.</p>
+
+      <h2>A União com o Projeto GNU</h2>
+      <p>Para se tornar o sistema que conhecemos hoje, o kernel Linux se uniu às ferramentas do projeto <strong>GNU</strong>, idealizado por Richard Stallman. Dessa combinação nasceu o termo correto <em>GNU/Linux</em>, que hoje alimenta desde supercomputadores e servidores de internet até o sistema operacional Android presente nos smartphones.</p>
+
+      <h2>A Filosofia do Software Livre</h2>
+      <p>Mais do que tecnologia, o Linux carrega a filosofia de que o software deve ser <strong>livre para ser compartilhado e modificado</strong>. Essa colaboração global permite que falhas sejam corrigidas rapidamente por programadores do mundo todo, tornando-o um pilar essencial para a internet moderna.</p>
+    </main>
+
+    <footer>
+      <p>IFRN - Campus Macau | Disciplina de Autoria Web</p>
+    </footer>
+  </div>
+
+</body>
+</html>

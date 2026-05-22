@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio - 1</title>
+  <style>
+    /* Estilos para manter o visual Dark Mode moderno */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #121214;
+      color: #e1e1e6;
+      line-height: 1.6;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container { max-width: 750px; width: 100%; background-color: #202024; padding: 40px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3); }
+    header { text-align: center; margin-bottom: 30px; }
+    header h1 { color: #9871f5; font-size: 2.2rem; }
+    header h2 { color: #7c7c8a; font-size: 1.2rem; font-weight: 400; margin-top: 5px; }
+    
+    /* Menu */
+    nav ul { list-style: none; display: flex; gap: 15px; justify-content: center; margin-top: 20px; }
+    nav a { text-decoration: none; color: #e1e1e6; background-color: #29292e; padding: 10px 20px; border-radius: 6px; font-size: 0.95rem; font-weight: 600; transition: all 0.2s; border: 1px solid #323238; }
+    nav a:hover { background-color: #9871f5; transform: translateY(-2px); }
+    
+    .divisor { height: 1px; background: linear-gradient(to right, transparent, #323238, transparent); margin: 30px 0; }
+    
+    /* Seções e Imagens em Divs */
+    section { margin-bottom: 40px; }
+    section h2 { color: #9871f5; font-size: 1.4rem; margin-bottom: 12px; }
+    section p { color: #c4c4cc; text-align: justify; margin-bottom: 15px; }
+    .img-container { display: flex; justify-content: center; margin: 15px 0; }
+    .img-container img { max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #323238; }
+    
+    /* Rodapé */
+    footer { text-align: center; margin-top: 20px; padding-top: 20px; border-top: 1px solid #323238; }
+    footer h3 { color: #9871f5; font-size: 1.1rem; margin-bottom: 8px; }
+    footer p { color: #7c7c8a; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Usuário: PXLCS</h1>
+      <h2>Curso: Informática / Desenvolvimento Web</h2>
+      <nav>
+        <ul>
+          <li><a href="sobre2.html">Sobre o Linux</a></li> <li><a href="https://github.com/PXLCS" target="_blank">Meu Github</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="divisor"></div>
+
+    <main>
+      
+      <section>
+        <h2>1 - Código Aberto (Open Source) e Liberdade</h2>
+        <p>Diferente do Windows, o <strong>Linux</strong> é totalmente código aberto. Isso significa que qualquer pessoa pode inspecionar, modificar e distribuir o seu código-fonte, trazendo uma atmosfera de <em>extrema liberdade</em> para o usuário.</p>
+        <div class="img-container">
+          <img src="https://t.ctcdn.com.br/LkXtWliq3fIldus5PmMkXPNWybE=/1200x675/smart/i820755.jpeg" alt="Tux Linux" width="400">
+        </div>
+      </section>
+
+      <section>
+        <h2>2 - Segurança Nativa e Privacidade</h2>
+        <p>O <strong>Linux</strong> foi desenhado para ser altamente seguro. A necessidade de permissões administrativas restritas mitiga a ação de malwares, garantindo uma navegação <em>privada e livre de telemetrias invasivas</em>.</p>
+        <div class="img-container">
+          <img src="https://media.kasperskydaily.com/wp-content/uploads/sites/94/2023/04/25154057/linux-vmware-esxi-ransomware-attacks-featured.jpg" alt="Segurança em Servidores" width="400">
+        </div>
+      </section>
+
+      <section>
+        <h2>3 - Desempenho e Consumo de Recursos</h2>
+        <p>Ele gerencia melhor a memória RAM e o processador, sendo capaz de dar uma <strong>nova vida a computadores antigos</strong>. Isso prova que o sistema é <em>altamente eficiente</em> mesmo em hardwares modestos.</p>
+        <div class="img-container">
+          <img src="https://i.pinimg.com/736x/11/e3/be/11e3bed111afaa3ae9799f6c0edc1f04.jpg" alt="Desempenho Linux" width="400">
+        </div>
+      </section>
+
+      <section>
+        <h2>4 - Customização Extrema</h2>
+        <p>No <strong>Linux</strong>, a customização é total. O usuário pode escolher desde o ambiente gráfico completo até os mínimos detalhes, tornando a experiência de uso <em>completamente única e pessoal</em>.</p>
+        <div class="img-container">
+          <img src="https://www.stackscale.com/wp-content/uploads/2022/08/debian-gnu-linux-distro-stackscale.jpg" alt="Customização Linux" width="400">
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <h3>IFRN - Campus Macau <h3>
+        <h3>1INF1V</h3>
+      <p>Este site foi desenvolvido como parte prática da disciplina de <em>Autoria Web</em>, Usei IA como auxiliar para melhorar a aparência das páginas e modifiquei boa parte do código e textos.</p>
+    </footer>
+  </div>
+
+</body>
+</html>
